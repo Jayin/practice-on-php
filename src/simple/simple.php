@@ -62,5 +62,14 @@ foreach ( $age as $a ) {
 	d ( $a );
 	// just get the value not the key =,=
 }
+// 2
+$arr = array(
+        "Jayin" => 1,
+        1,
+        3
+);
+foreach ($arr as $key => $val){
+    d($key." -> ".$val);
+}
 
 

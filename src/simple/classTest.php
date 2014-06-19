@@ -34,7 +34,7 @@ class Single {
     public static function get_instance () {
         if (! is_null(Single::$singleton))
             return Single::$sigleton;
-        return new Single();
+        return $singleton  = new Single();
     }
 
     function bar () {
@@ -64,7 +64,10 @@ $a->foo();
 
 $b  =Single::get_instance();
 $b->setName('you name!');
+dp($b);
 
+$b  =Single::get_instance();
+$b->setName('Jayin');
 dp($b);
 
 
