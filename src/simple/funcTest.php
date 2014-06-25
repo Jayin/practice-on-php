@@ -15,6 +15,7 @@ foo(1, 34, 5);
 function foo1($name, $msg = "default msg") {
     if ($name) {
         var_dump($name);
+        echo '<br>';
     }
     var_dump($msg);
     echo '<br>';
