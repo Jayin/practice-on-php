@@ -1,4 +1,4 @@
-practice on php
+practice on php [![Build Status](https://travis-ci.org/Jayin/practice-on-php.svg?branch=master)](https://travis-ci.org/Jayin/practice-on-php) [![GitHub version](https://badge.fury.io/gh/Jayin%2Fpractice-on-php.svg)](http://badge.fury.io/gh/Jayin%2practice-on-php) ![license](http://img.shields.io/badge/license-MIT-brightgreen.svg)
 ===
 record my learning PHP
 
