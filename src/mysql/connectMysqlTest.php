@@ -14,4 +14,4 @@ if($mysqli->connect_errno){
     dpf($mysqli->connect_error);
 }
 
-dpf($mysqli);
+// dpf($mysqli);
