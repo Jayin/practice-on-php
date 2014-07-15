@@ -12,13 +12,13 @@ class A {
 	}
 
 	public function  __get($key){
-		echo "__get!!!!! \n"; 
+		echo "__get-->".$key."!!!!! \n"; 
 		 
 		return $this->data[$key];
 	}
 
 	public function __set($key,$val){
-		echo "__set!!!!! \n"; 
+		echo "__set-->".$key."!!!!! \n"; 
 
 		$this-> data[$key] = $val;
 	}
@@ -35,3 +35,9 @@ echo "\n";
 echo "name--> ".$a->name;
 echo "age--> ".$a->age;
 echo "\n";
+
+//new one
+$a->weight = 60;
+$a->height = 170;
+echo "weight--> ".$a->weight;
+echo "height--> ".$a->height;

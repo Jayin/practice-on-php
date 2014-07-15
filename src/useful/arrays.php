@@ -27,3 +27,12 @@
         return $val * $val;
      }, $a2));
 
+     //移除最左边的第一个
+     echo "\n";
+     var_dump(array_shift($a1));
+
+    //按顺序加入到数组
+    $t1 = array();
+    $t1[] = 1;
+    $t1[] = 2;
+    var_dump($t1);
