@@ -36,3 +36,16 @@
     $t1[] = 1;
     $t1[] = 2;
     var_dump($t1);
+
+    // 从数组中将变量导入到当前的符号表
+    $size = "large";
+    $var_array = array("color" => "blue",
+                       "size"  => "medium",
+                       "shape" => "sphere");
+    extract($var_array, EXTR_OVERWRITE);
+    echo $color . "\n";
+    echo $size . "\n";
+    echo $shape . "\n";
+
+
+
