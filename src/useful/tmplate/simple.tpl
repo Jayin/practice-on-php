@@ -8,5 +8,13 @@
 	<textarea>
 		<?php echo $content ?>
 	</textarea>
+	<?php
+		echo "<ol>";
+		for($i=1;$i<=5;$i++){
+			echo "<li><p>" . $i . "</p></li>";
+		}
+		echo "</ol>";
+
+	?>
 </body>
 </html>
