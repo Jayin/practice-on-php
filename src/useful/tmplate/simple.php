@@ -25,4 +25,8 @@
 	}
 	echo "\n ---- \n";
 	echo $output;
+	
+	$handle = fopen('simple.html','w');
+	fwrite($handle,$output);  
+	fclose($handle);
 

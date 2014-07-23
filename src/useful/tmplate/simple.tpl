@@ -5,6 +5,10 @@
 
 <body>
 	<h2><?php echo  $title ?></h2>
+	<h2><?php echo  $title2 ?></h2>
+	<h2><?php //echo  "这是注释部分，你看我不到" ?></h2>
+	
+	<!-- <h2><?php echo "这种方式注释也可以哦" ?></h2> -->
 	<textarea>
 		<?php echo $content ?>
 	</textarea>
